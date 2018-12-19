@@ -1,0 +1,10 @@
+<div class="wrap">
+    <h1>Simple GTM</h1>
+    <form action="options.php" method="post">
+        <?php
+        settings_fields($optionGroup);
+        do_settings_sections($page);
+        submit_button();
+        ?>
+    </form>
+</div>
