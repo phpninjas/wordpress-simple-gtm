@@ -2,7 +2,7 @@
 /*
 Plugin Name: Google Tag Manager for Wordpress
 Version: 0.1
-Plugin URI: https://github.com/phpninjas/wordpress_simple_gtm
+Plugin URI: https://github.com/phpninjas/wordpress-simple-gtm
 Description: Simple google tag manager, no bollocks
 Author: James Turner
 Author URI: https://github.com/phpninjas/
