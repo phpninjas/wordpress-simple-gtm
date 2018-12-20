@@ -1,9 +1,11 @@
 <div class="wrap">
-    <h1>Simple GTM</h1>
+    <h1><?php esc_html_e('Simple Google Tag Manager')?></h1>
     <form action="options.php" method="post">
+        <?php settings_fields($optionGroup); ?>
+        <h2><?php esc_html_e('General')?></h2>
+        <label for="<?php echo esc_attr($containerName)?>"><?php esc_html_e('Google Tag Manager ID')?></label>
+        <input name="<?php echo esc_attr($containerName)?>" type="text" value="<?php echo get_option($containerName) ?>"/>
         <?php
-        settings_fields($optionGroup);
-        do_settings_sections($page);
         submit_button();
         ?>
     </form>
